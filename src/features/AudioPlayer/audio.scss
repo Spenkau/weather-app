@@ -1,0 +1,10 @@
+.audio {
+  z-index: 5000;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  height: 90%;
+  overflow-x: scroll;
+  margin-top: 30px;
+  padding: 0 15px;
+}

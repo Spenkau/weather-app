@@ -1,0 +1,70 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 60%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 55px;
+  color: white;
+
+  .current-date {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .welcome-phrase {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+    width: 100vw;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    span {
+      width: 50%;
+      text-align: right;
+    }
+    &.show {
+      opacity: 1;
+    }
+  }
+
+  .name-field {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 66px;
+    width: 50%;
+    font-size: 30px;
+    background-color: transparent;
+  }
+}
+
+.modals-nav {
+  display: flex;
+  gap: 15px;
+  height: 25px;
+
+  button {
+    height: 100%;
+    color: white;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+    &:hover, &:active {
+      border-color: rosybrown;
+    }
+  }
+}

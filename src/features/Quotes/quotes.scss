@@ -1,0 +1,34 @@
+.quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  button {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background-image: url("../../../public/images/reload.png");
+    background-size: cover;
+  }
+  .quote-text {
+    text-align: center;
+    color: black;
+    font-family: 'Dongle', sans-serif;
+    font-size: 55px;
+    line-height: 25px;
+    margin-top: 10px;
+    word-break: break-all;
+  }
+  .quote-author {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    display: block;
+    margin: 0 auto;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+}
